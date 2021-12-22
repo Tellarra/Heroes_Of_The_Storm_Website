@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="css/my_CSS.css" type="text/css">
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function myFunction() {
+    var navbarApp = document.getElementById("topNavBar");
+    if (navbarApp.className === "navBar") {
+        navbarApp.className += " responsive";
+    } else {
+        navbarApp.className = "navBar";
+    }
+}	
+</script>
+</head>
+
+<body>
+	<header>
+		<div>
+			<nav class="navBar" id="topNavBar">
+				<a href="index.html" class="logo"><img src="images/Logo.png" width="150" height="80" alt=""/></a>
+				<ul class="nav-ul">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="html/overview.html">The Game</a></li>
+					<li><a href="html/heroes.html">Heroes</a></li>
+					<li><a href="html/community.html">Community</a></li>
+					<li><a href="html/contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<main>
+<h1><img src="images/Logo.png" width="550" height="275" alt=""/></h1>
+<h2>Latest Videos</h2>
+<div class="cardIndex">
+	<div class="video">
+		<iframe width="250" height="200" src="https://www.youtube.com/embed/dUteIscRcGE" frameborder="0" allowfullscreen>
+		</iframe>
+	</div>
+	<p>Check out Alexstrasza and Hanzo coming into the nexus in this awsome video!</p>
+</div>
+<div class="cardIndex">
+	<div class="video">
+		<iframe width="250" height="200" src="https://www.youtube.com/embed/XdsAQAUes8I" frameborder="0" allowfullscreen>
+		</iframe>
+	</div>
+		<p>Dragon of the nexus. <br>
+		A new video with the next two heroes that will be coming up to Heroes of the storm shortly!</p>
+</div>
+<div class="cardIndex">
+	<div class="video">
+		<iframe width="250" height="200" src="https://www.youtube.com/embed/lii29BxTWo4" frameborder="0" allowfullscreen>
+		</iframe>
+	</div>
+	<p>Blizzcon 2017 video Announce.</p>
+	
+</div>
+<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/BlizzHeroes?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by BlizzHeroes</a> 
+</div>
+
+<h2>Explore the content of Heroes of the storm</h2>
+<a href="html/overview.html">
+	<div class="cardLink" style="float: left">
+	  <img src="images/learnMore.jpg" width="700" height="300" alt="learn More"/> 
+	  <p>Learn more about the game:</p>
+	</div> 
+</a>
+<a href="html/heroes.html">
+	<div class="cardLink" style="float: left">
+    <img src="images/learnMoreHeroes.png" width="700" height="300" alt="learnMoreHeroes"/> 
+    <p>Learn more about the heroes you can play in the nexus!</p>
+   	</div>
+</a>
+</main>
+<footer>
+	<ul>
+		<li><a href="html/overview.html">The Game</a></li>
+		<li><a href="html/heroes.html">Heroes</a></li>
+		<li><a href="html/community.html">Community</a></li>
+		<li><a href="html/contact.html">Contact</a></li>
+	</ul>
+</footer>
+</body>
+</html>

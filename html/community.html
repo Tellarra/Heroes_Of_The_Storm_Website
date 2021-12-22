@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Community</title>
+<link type="text/css" rel="stylesheet" href="../css/my_CSS.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+function myFunction() {
+    var x = document.getElementById("topNavBar");
+    if (x.className === "navBar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navBar";
+    }
+}
+</script>
+<script>
+	$("iframe").wrap("<div class='cardIndex'/>");
+</script>
+
+</head>
+<body>
+	<div>
+		<nav class="navBar" id="topNavBar">
+			<a href="../index.html" class="logo"><img src="images/Logo.png" width="150" height="80" alt=""/></a>
+			<ul class="nav-ul">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="html/overview.html">The Game</a></li>
+				<li><a href="html/heroes.html">Heroes</a></li>
+				<li><a href="html/community.html">Community</a></li>
+				<li><a href="html/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+<main>
+<h2>Community</h2>
+	<div class="heroContainer">
+<div class="social">
+		<a href="https://twitter.com/blizzheroes?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @blizzheroes</a>
+	  </div>
+	</div>
+	<div class="heroContainer">
+		<div class="social">
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBlizzHeroes%2F&tabs&width=300&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="300" height="100" scrolling="no" frameborder="0" allowTransparency="true">
+			</iframe>
+		</div>
+	</div>
+	<div class="heroContainer">
+		<div class="social">
+			<a href="http://eu.battle.net/heroes/en/" target="_blank"><img src="../images/Logo.png" width="300" height="100" alt="Logo"/></a>
+		</div>
+	</div>
+</main>
+</body>
+</html>
